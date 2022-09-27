@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante italiano</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="encabezado" id="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Restaurante La <span class="verde">Ita</span>lia<span class="rojo">na</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#encabezado">Inicio</a>
+                    <a href="#contenedor-nosotros">Sobre Nosotros</a>
+                    <a href="#menu">Menú</a>
+                    <a href="#chef">Chef</a>
+                    <a href="#formulario-contacto">Contacto</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Bienvenido!</h2>
+                    <a href="#" class="btn bordes">Nuestro menú</a>
+                </div>
+                <video src="assets/bg_video.mp4" autoplay loop muted></video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor" id="contenedor-nosotros">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Bienvenido a </p>
+            <h1>Restaurante La Italiana</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae facere repudiandae, at, totam eos
+                quas
+                quibusdam ad officia optio sunt culpa temporibus ea obcaecati inventore ex magni tempore vero?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vitae facere repudiandae, at, totam eos
+                quas
+                quibusdam ad officia optio sunt culpa temporibus ea obcaecati inventore ex magni tempore vero?</p>
+            <a href="#" class="btn bordes btn-rojo">Contactar</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img data-src="assets/img/nosotros1.webp" alt="mujer comiendo pizza">
+            </div>
+            <div class="imagenes2">
+                <img data-src="assets/img/nosotros2.webp" alt="mujeres comiendo pizza">
+                <img data-src="assets/img/nosotros3.webp" alt="pasta">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor" id="menu">
+        <h2 class="texto-platillos">Platos populares:</h2>
+        <div class="botones-platillos">
+            <button class="todos btn bordes btn-verde">Todos</button>
+            <button class="ensaladas btn bordes btn-verde">Ensaladas</button>
+            <button class="pasta btn bordes btn-verde">Pasta</button>
+            <button class="pizza btn bordes btn-verde">Pizza</button>
+            <button class="postres btn bordes btn-verde">Postres</button>
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada.webp" alt="ensalada">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada2.webp" alt="ensalada">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada.webp" alt="ensalada">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <!-- PASTAS -->
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta1.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta2.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta1.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <!-- PIZZAS -->
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza1.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza2.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza1.webp" alt="pizza">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <!-- POSTRES -->
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres1.webp" alt="postre">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres2.webp" alt="postre">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres1.webp" alt="postre">
+                <h2>Quinoa</h2>
+                <p>Quinoa, cerezas, tomates, aceitunas, cereal.</p>
+                <div class="precio">
+                    <p>$320</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>Comida italiana para empezar el dia</h2>
+            <p>Empieza tu día comiendo deliciosa comida o un café italiano</p>
+            <a href="#" class="btn btn-verde">Ordenar ahora</a>
+        </div>
+    </div>
+
+    <section class="chef contenedor" id="chef">
+        <h2>Chef ejecutivo</h2>
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3>La excelencia esta en la diversidad y el modo de progresar, es conocer y comparar la diversidad de
+                    productos, culturas y tecnicas.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, at iste iusto fuga tempore possimus.</p>
+                <a href="#" class="btn bordes btn-verde">Leer biografía</a>
+            </div>
+            <div class="imagen-chef">
+                <img data-src="assets/img/chef.webp" alt="fotografía del chef">
+            </div>
+        </div>
+    </section>
+
+    <div class="formulario-contacto contenedor" id="formulario-contacto">
+        <div class="informacion-contacto">
+            <h3>Contactanos</h3>
+            <p><i class="fa-sharp fa-solid fa-location-dot"></i> Av. San Martin 1450</p>
+            <p><i class="fa-solid fa-envelope"></i> contacto@laitaliana.com</p>
+            <p><i class="fa-solid fa-phone"></i> +54-341-6574839</p>
+            <div class="redes-sociales">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a> 
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a> 
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a> 
+            </div>
+        </div>
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Martin" name="" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellido">Apellido</label>
+                <input type="text" placeholder="Palermo" name="" id="apellido">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Email</label>
+                <input type="email" placeholder="ejemplo@ejemplo.com" name="" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Telefono</label>
+                <input type="tel" placeholder="+54-341-..." name="" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn -formulario">
+                <input type="submit" value="Enviar" class="btn bordes btn-verde" name="" id="">
+            </div>
+        </form>
+    </div>
+
+    <div class="pie-pagina">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>Av. San Martin 1450</p>
+            </div>
+            <div class="info">
+                <h3>Dias especiales</h3>
+                <p>Sabados y domingos 8am - 11pm</p>
+                <p>+54-342-6574839</p>
+            </div>
+            <div class="info">
+                <h3>Horarios</h3>
+                <p>Lunes - Domingo 8am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a> 
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a> 
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a> 
+                </div>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>Suscribete para recibir mas noticias</p>
+                <input type="email" placeholder="Tu correo...">
+                <input type="submit" value="Suscribirse" class="btn bordes btn-verde">
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Derechos reservados &copy; 2022 Ulises Aguirre</p>
+        </footer>
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
