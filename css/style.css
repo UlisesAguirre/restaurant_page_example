@@ -633,6 +633,23 @@ video {
 }
 
 @media (max-width:600px) {
+    .logo h2 {
+        font-size: 1.5rem;
+    }
+    .hamburguesa span {
+        height: .2rem;
+        width: 1rem;
+        margin-bottom:  .3rem;
+    }
+    .navegacion {
+        width: 100%;
+    }
+    .texto-encabezado h2 {
+        font-size: 2.5rem;
+    }
+    .texto-encabezado a {
+        font-size: 1rem;
+    }
     .texto-nosotros .bienvenida {
         font-size: 1rem;
     }
@@ -653,6 +670,12 @@ video {
     } 
     .contenido-separador h2, .contenido-separador p{
         text-align: center;
+    }
+    .contenido-separador h2 {
+        font-size: 1.8rem;
+    }
+    .contenido-separador p {
+        font-size: 1rem;
     }
     .contenido-separador a {
         display: block;
@@ -679,10 +702,28 @@ video {
     .formulario {
         margin-top: 2rem;
     }
+    .info {
+        padding: 0 .2rem;
+    }
     .info h3 {
         font-size: 1rem;
     }
     .info p {
         font-size: .8rem;
+    }
+    .info input:first-of-type {
+        font-size: .5rem;
+    }
+    .info input:last-of-type {
+        font-size: .5rem;
+        margin-top: .3rem;
+    }
+    .redes-pie {
+        display: flex;
+        justify-content: space-around;
+    }
+    .redes-pie a {
+        font-size: 1.5rem;
+        margin: 2px;
     }
 }
